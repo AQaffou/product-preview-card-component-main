@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+body{
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+}
+.container{
+    width: 95%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 95%;
+}
+.img{
+    height: 50%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-image: url(./images/image-product-mobile.jpg);
+    background-size: cover;
+}
+.description{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    justify-content: space-between;
+    gap: 0.7rem;
+}
+.Type{
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+}
+.Name{
+    color: hsl(212, 21%, 14%);
+    font-family: 'Fraunces', serif;
+    line-height: 2rem;
+    font-size: 0.9rem;
+}
+.details{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    line-height: 1.5rem;
+}
+.price{
+    display: flex;
+    gap: 1rem;
+}
+.Discount{
+    font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
+}
+.barred_price{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration-line: line-through;
+    text-decoration-thickness: 0.01rem;
+    color: hsl(228, 12%, 48%);
+    font-size: small;
+    display: flex;
+    align-items: center;
+}
+.Cart{
+    background-color: hsl(158, 36%, 37%);
+    border-color: white;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    height: 4rem;
+    border-bottom: 0px;
+    border-right: 0px;
+}
+button:hover{
+    background-color: rgb(26, 64, 49);
+    cursor: pointer;
+}
+.Add{
+    font-size: medium;
+    color: white;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+.icon{
+    display: flex;
+}
+h1{
+    margin: 0px;
+}
+@media only screen and (min-width: 1440px) {
+    .container{
+        width: 40%;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        max-height: 25.5rem;
+    }
+    .img{
+        width: 50%;
+        height: auto;
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+        background-image: url(./images/image-product-desktop.jpg);
+        background-size: cover;
+    }
+    .description{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+        justify-content: space-between;
+        gap: 0.7rem;
+    }
+    .Type{
+        color: hsl(228, 12%, 48%);
+        font-family: 'Montserrat', sans-serif;
+    }
+    .Name{
+        color: hsl(212, 21%, 14%);
+        font-family: 'Fraunces', serif;
+        width: 90%;
+        line-height: 2rem;
+    }
+    .details{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        color: hsl(228, 12%, 48%);
+        width: 90%;
+        line-height: 1.5rem;
+    }
+    .price{
+        display: flex;
+        gap: 1rem;
+    }
+    .Discount{
+        font-family: 'Fraunces', serif;
+        color: hsl(158, 36%, 37%);
+    }
+    .barred_price{
+        font-family: 'Montserrat', sans-serif;
+        text-decoration-line: line-through;
+        text-decoration-thickness: 0.01rem;
+        color: hsl(228, 12%, 48%);
+        font-size: small;
+        display: flex;
+        align-items: center;
+    }
+    .Cart{
+        background-color: hsl(158, 36%, 37%);
+        border-color: white;
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        height: 4rem;
+        border-bottom: 0px;
+        border-right: 0px;
+    }
+    button:hover{
+        background-color: rgb(26, 64, 49);
+        cursor: pointer;
+    }
+    .Add{
+        font-size: medium;
+        color: white;
+        font-weight: bold;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .icon{
+        display: flex;
+    }
+    h1{
+        margin: 0px;
+    }
+}
+
+
